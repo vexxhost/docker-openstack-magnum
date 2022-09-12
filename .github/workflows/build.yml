@@ -43,6 +43,7 @@ jobs:
           RELEASE=${{ matrix.release }}
           PROJECT=magnum
           PROJECT_REF=${{ env.PROJECT_REF }}
+          EXTRAS=
           PROFILES=
           DIST_PACKAGES=
           PIP_PACKAGES=
