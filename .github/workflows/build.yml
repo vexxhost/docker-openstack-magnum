@@ -43,6 +43,7 @@ jobs:
         build-args: |-
           RELEASE=${{ matrix.release }}
           PROJECT=magnum
+          PROJECT_REPO=https://github.com/openstack/magnum
           PROJECT_REF=${{ env.PROJECT_REF }}
           EXTRAS=
           PROFILES=
