@@ -48,7 +48,7 @@ jobs:
           EXTRAS=
           PROFILES=
           DIST_PACKAGES=
-          PIP_PACKAGES=
+          PIP_PACKAGES=cryptography
         cache-from: type=gha,scope=${{ matrix.release }}
         cache-to: type=gha,mode=max,scope=${{ matrix.release }}
         context: .
